@@ -1,81 +1,46 @@
 -
-    inputs =
+    btn = {
+        mod: '_red _big',
+        text: 'View more',
+        href: ''
+    },
+    services = [
     {
-    type: 'select',
-    size: '6of12',
-    name: 'name',
-    mod: '_mod1',
-    placeholder: [
-    {
-    title: 'Один',
-    value: 1
+    icon: 'like',
+    title: 'SUSPENDISSE',
+    text: 'Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae at, vehicula ut nunc. '
     },
     {
-    title: 'Два',
-    value: 2
+    icon: 'key',
+    title: 'MAECENAS',
+    text: 'Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.'
     },
     {
-    title: 'Три',
-    value: 3
+    icon: 'flag',
+    title: 'ALIQUAM ',
+    text: 'Vivamus eget ante bibendum arcu vehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor non. '
     },
     {
-    title: 'Четыре',
-    value: 4
+    icon: 'flask',
+    title: 'HABITASSE ',
+    text: 'Astehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor non. '
     }
     ]
-    }
--
-    datepicker = {
-        type: 'text',
-        size: '3of12',
-        name: 'name',
-        mod: '_datepicker js-datepicker',
-        placeholder: '',
-        autocomplete: true
-    }
 
-
-+b.sample
++b('section').services
     .container
-        h2 О нас
-        p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquam semper leo at sagittis. Morbi sed lacus vehicula, vestibulum tortor id, posuere nisl. Morbi augue odio, aliquam at magna quis, faucibus fringilla velit. Nulla vel lorem eget lorem varius porta at at turpis. Proin sapien nibh, facilisis vitae mauris viverra, condimentum finibus nisl. Vestibulum sollicitudin vehicula cursus. Maecenas tincidunt, dui vitae rhoncus condimentum, sapien magna sodales mi, eget suscipit ligula purus posuere tellus. Cras a metus eu dolor mollis pellentesque. Proin gravida libero quis sapien commodo pellentesque.
-        p Quisque non ligula posuere tortor gravida tristique quis id orci. Integer vel tempus risus. Praesent molestie metus nec ex sodales condimentum. Donec ut vulputate lectus. Maecenas non mattis purus, sodales maximus nisi. Vestibulum dictum turpis eu ullamcorper vehicula. Nunc sed iaculis arcu. Integer eu risus commodo, faucibus massa sed, auctor est. Quisque a tincidunt felis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        p Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse sit amet placerat massa. Nunc vitae sapien maximus, placerat purus ac, pulvinar ante. Suspendisse massa tortor, pellentesque ac urna id, lacinia pellentesque magna. Curabitur egestas auctor ante, sit amet scelerisque sapien suscipit sed. Sed porta hendrerit metus, vel rutrum libero gravida id. Phasellus accumsan urna euismod egestas iaculis. Mauris congue odio in pretium auctor. Sed ornare lacus nec turpis pretium, at suscipit ipsum congue. Nullam ac sem sed nisi iaculis viverra. Maecenas dignissim porttitor gravida. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-        p Morbi eget scelerisque lectus. Nulla eget sodales nibh, eu pulvinar lorem. Donec ex urna, elementum sit amet commodo quis, tincidunt non ex. Nam lacinia et ipsum ut condimentum. Praesent porta, magna non blandit interdum, eros nisl finibus odio, vel dictum ante enim et sem. Nulla sollicitudin velit at diam consectetur tempus vitae ut odio. Donec porta eu quam a tempor. Donec et magna pretium, tempus erat in, tempus metus. Aliquam vitae mattis ante. Duis ut lacus imperdiet lorem porta dapibus ac id elit.
-        p Morbi eget scelerisque lectus. Nulla eget sodales nibh, eu pulvinar lorem. Donec ex urna, elementum sit amet commodo quis, tincidunt non ex. Nam lacinia et ipsum ut condimentum. Praesent porta, magna non blandit interdum, eros nisl finibus odio, vel dictum ante enim et sem. Nulla sollicitudin velit at diam consectetur tempus vitae ut odio. Donec porta eu quam a tempor. Donec et magna pretium, tempus erat in, tempus metus. Aliquam vitae mattis ante. Duis ut lacus imperdiet lorem porta dapibus ac id elit.
-        p Morbi eget scelerisque lectus. Nulla eget sodales nibh, eu pulvinar lorem. Donec ex urna, elementum sit amet commodo quis, tincidunt non ex. Nam lacinia et ipsum ut condimentum. Praesent porta, magna non blandit interdum, eros nisl finibus odio, vel dictum ante enim et sem. Nulla sollicitudin velit at diam consectetur tempus vitae ut odio. Donec porta eu quam a tempor. Donec et magna pretium, tempus erat in, tempus metus. Aliquam vitae mattis ante. Duis ut lacus imperdiet lorem porta dapibus ac id elit.
-        p Morbi eget scelerisque lectus. Nulla eget sodales nibh, eu pulvinar lorem. Donec ex urna, elementum sit amet commodo quis, tincidunt non ex. Nam lacinia et ipsum ut condimentum. Praesent porta, magna non blandit interdum, eros nisl finibus odio, vel dictum ante enim et sem. Nulla sollicitudin velit at diam consectetur tempus vitae ut odio. Donec porta eu quam a tempor. Donec et magna pretium, tempus erat in, tempus metus. Aliquam vitae mattis ante. Duis ut lacus imperdiet lorem porta dapibus ac id elit.
-        p Morbi eget scelerisque lectus. Nulla eget sodales nibh, eu pulvinar lorem. Donec ex urna, elementum sit amet commodo quis, tincidunt non ex. Nam lacinia et ipsum ut condimentum. Praesent porta, magna non blandit interdum, eros nisl finibus odio, vel dictum ante enim et sem. Nulla sollicitudin velit at diam consectetur tempus vitae ut odio. Donec porta eu quam a tempor. Donec et magna pretium, tempus erat in, tempus metus. Aliquam vitae mattis ante. Duis ut lacus imperdiet lorem porta dapibus ac id elit.
-        p Morbi eget scelerisque lectus. Nulla eget sodales nibh, eu pulvinar lorem. Donec ex urna, elementum sit amet commodo quis, tincidunt non ex. Nam lacinia et ipsum ut condimentum. Praesent porta, magna non blandit interdum, eros nisl finibus odio, vel dictum ante enim et sem. Nulla sollicitudin velit at diam consectetur tempus vitae ut odio. Donec porta eu quam a tempor. Donec et magna pretium, tempus erat in, tempus metus. Aliquam vitae mattis ante. Duis ut lacus imperdiet lorem porta dapibus ac id elit.
-        +input(inputs)
-        +b.selected
-            +e.select.js-select-item Выбор селекта
-
-        +b.accordion.js-accordion
-            h3 Section 1
-            +e.item
-                p Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi.
-            h3 Section 2
-            +e.item
-                p Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi.
-
-        +b.datepicker
-            +input(datepicker)
-
-        +b.input._4of12.js-range
-            input(type="text" class="pseudo-hidden range-input")
-
-        +b.tabs.js-tabs
-            +b('ul').tabs-list
-                +e('li').item
-                    +e.link(href="#tab1") Таб 1
-                +e('li').item
-                    +e.link(href="#tab2") Таб 2
-                +e('li').item
-                    +e.link(href="#tab3") Таб 3
-            +e.content-item#tab1
-                p Mauris mauris ante, blandit et, ultrices a, quam
-            +e.content-item#tab2
-                p Mauris mauris ante, blandit et suscipit eget, quam
-            +e.content-item#tab3
-                p Mauris maurisices a, suscipit eget, quam
+        +b.top-services
+            +e.text
+                +e('h2').title Some of our top services
+                +e.subtitle Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.
+            +e.btn
+                +button(btn)
+        +e.services-list
+            +b.services-list
+                each item in services
+                    +e.item
+                        +e.icon(class=" icon-" + item.icon)
+                        +e('h3').title=item.title
+                        +e.text=item.text
+                        +e.btn
+                            +button({text:"read more"})

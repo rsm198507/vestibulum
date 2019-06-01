@@ -1,32 +1,51 @@
 
-
 body {
-  font-family: $os, sans-serif;
-  font-size: 16px;
+    font-family: $os, sans-serif;
+    font-size: 16px;
 }
 
 .page-container {
-  overflow: hidden;
-  margin: 0 auto;
-  max-width: 1500px;
-  width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 1500px;
+    width: 100%;
 }
 
 .container {
-  overflow: hidden;
-  margin: 0 auto;
-  padding: 0 15px;
-  max-width: 1200px;
-  width: 100%;
-  border: 1px solid red;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
+    width: 100%;
+    border: 1px solid red;
 }
 
 .pseudo-hidden {
-  position: absolute;
-  left: -200vw;
-  opacity: 0;
-  z-index: -999;
-  pointer-events: none;
-  overflow: hidden;
-  transform: scale(0);
+    position: absolute;
+    left: -200vw;
+    opacity: 0;
+    z-index: -999;
+    pointer-events: none;
+    overflow: hidden;
+    transform: scale(0);
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 45px;
+    width: 100%;
+    background-color: $green;
+    border-radius: 5px;
+    text-align: center;
+    font-family: $os;
+    font-size: 20px;
+    font-weight: 400;
+    color: $white;
+    &_big {
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    &_red {
+        background-color: $red;
+    }
 }

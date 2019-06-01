@@ -1,0 +1,90 @@
+.services {
+    padding-top: 30px;
+    background-color: $grey;
+    &__services-list {
+        margin-top: 50px;
+    }
+}
+
+.top-services {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 35px;
+    background-color: $darken-grey;
+    border-radius: 5px;
+    &__text {
+        padding-right: 20px;
+    }
+    &__title {
+        font-size: 30px;
+        font-weight: 400;
+        color: $dark-grey;
+    }
+    &__subtitle {
+        margin-top: 7px;
+        font-size: 13px;
+        color: $dark-grey;
+    }
+    &__btn {
+        min-width: 200px;
+    }
+
+}
+.services-list {
+    $sl: &;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+    &__item {
+        position: relative;
+        padding: 50px 17px 70px;
+        width: calc(25% - 15px);
+        background-color: #f8f8f8;
+
+        &:hover {
+
+            #{$sl}__icon:before {
+
+                color: $red;
+            }
+            .btn {
+                background-color: $red;
+            }
+        }
+    }
+    &__icon {
+
+        font-size: 60px;
+        text-align: center;
+        &:before {
+            transition: .5s ease;
+            color: $green;
+        }
+    }
+    &__title {
+        margin-top: 10px;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 800;
+        text-align: center;
+        color: $dark-grey;
+    }
+    &__text {
+        margin-top: 35px;
+        font-size: 13px;
+        text-align: center;
+        line-height: 20.8px;
+        color: #777;
+    }
+    &__btn {
+        position: absolute;
+        left: 35px;
+        right: 35px;
+        margin: auto;
+        bottom: -30px;
+        .btn {
+            transition: .5s ease;
+        }
+    }
+}
