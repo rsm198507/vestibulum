@@ -8,7 +8,7 @@
     opacity: 0;
     pointer-events: none;
     transform: translateY(-15px);
-    transition: $transition;
+    transition: .5s ease;
     &__button {
         display: flex;
         align-items: center;
@@ -25,6 +25,6 @@
         opacity: 1;
         pointer-events: all;
         transform: translateY(0);
-        transition: $transition;
+        transition: .5s ease;
     }
 }
