@@ -1,5 +1,5 @@
 body {
-    font-family: $main-font, sans-serif;
+    font-family: $os, sans-serif;
     font-size: 16px;
 }
 
@@ -7,6 +7,14 @@ body {
     position: relative;
     z-index: 10;
     overflow: hidden;
+}
+.page-container {
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1530px;
+    width: 100%;
+    border: 1px solid green;
 }
 .container {
     overflow: hidden;
